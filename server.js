@@ -1,6 +1,8 @@
 const express = require("express");
 const bodyparser = require("body-parser");
 
+// Express is a framework of Node-js. using Express, developer can save his time and writing bunch of code
+// it is faster than alone NodeJS.
 
 var app = express()
 app.use(bodyparser.urlencoded({extende: true}));
